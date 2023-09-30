@@ -9,6 +9,19 @@ import Location from './components/Location';
 function App() {
   return (
     <div className="App">
+        <h1>Shopping App</h1>
+        <div>
+            <CartValue />
+            <Location />
+        </div>
+        <h2>Shopping Cart</h2>
+        <div>
+            <ExpenseList />
+        </div>
+        <h2>Add Items</h2>
+        <div>
+            <ItemSelected />
+        </div>
     </div>
   );
 }
